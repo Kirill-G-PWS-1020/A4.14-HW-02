@@ -200,6 +200,7 @@
         flex-wrap: wrap;
         padding: 0 1vw;
         justify-content: center;
+        text-align: center;
     }
     .footer-icons {
         padding-bottom: 50px;
