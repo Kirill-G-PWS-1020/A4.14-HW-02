@@ -85,7 +85,8 @@ h2 {
 }
 
 .nav > a {
-    padding: 35px 26px;
+    width: 147px;
+    padding: 35px 0 35px 0;
 }
 
 .list {
