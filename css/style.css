@@ -346,17 +346,20 @@ hr {
 }
 
 .team-line-up {
-    position: relative;
     display: flex;
     flex-wrap: wrap;
 }
 
-.team-line-up > img {
+.team-line {
+    position: relative;
+}
+
+.team-photo {
     object-fit: cover;
 }
 
-.team-line-up > img:nth-of-type(-n+3) {
-    margin-right: 20px;
+.team-line > img:nth-of-type(-n+3) {
+    margin-right: 1vw;
 }
 
 .line-up-hover:hover {
@@ -369,17 +372,14 @@ hr {
 }
 
 .byss {
-    left: 218px;
     bottom: 0;
 }
 
 .drug {
-    right: 218px;
     bottom: 0;
 }
 
 .shmot {
-    right: 0;
     bottom: 0;
 }
 
@@ -392,7 +392,7 @@ hr {
     height: 33px;
     background-color: rgba(56, 55, 55, 0.479);
 }
-.line-up-hover > a {
+.line-up-hover {
     color: rgba(246, 242, 242, 0.836);
     font-weight: 800;
     font-size: 22px;
