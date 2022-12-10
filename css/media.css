@@ -92,6 +92,7 @@
     }
     .header-left {
         margin-bottom: 100px;
+        padding: 0;
         width: 100%;
         text-align: center; 
     }
