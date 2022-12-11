@@ -144,6 +144,10 @@
         margin: 0 auto;
     }
 
+    .team-line-up {
+        justify-content: center;
+    }
+
     .profit-message {
         margin: 0 0 65px 0;
         width: 60vw
